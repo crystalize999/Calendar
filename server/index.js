@@ -15,6 +15,7 @@ app.use(express.json())
 app.use(fileUpload({}))
 app.use('/api', router)
 
+
 //Обработка ошибок всегда идёт последним Middleware
 app.use(errorHandler)
 
