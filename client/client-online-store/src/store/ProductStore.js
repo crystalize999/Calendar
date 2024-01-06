@@ -18,7 +18,7 @@ export default class ProductStore {
         this._products = [
             {
                 id: 1,
-                name: "mini 6",
+                name: "Mini 6",
                 price: 24000,
                 rating: 5,
                 img: "7ff8aed5-4dd9-4649-ae09-f3f016feac68.jpg",
