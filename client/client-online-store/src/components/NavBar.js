@@ -5,7 +5,6 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import {Button, NavLink} from "react-bootstrap";
 import {SHOP_ROUTE} from "../utils/consts";
-import {observe} from "mobx";
 import {observer} from "mobx-react-lite";
 
 const NavBar = observer( () => {

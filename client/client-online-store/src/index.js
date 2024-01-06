@@ -6,12 +6,14 @@ import ProductStore from "./store/ProductStore";
 
 export const Context = createContext(null)
 
+
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
       <Context.Provider value={{
            user:  new UserStore(),
-           device: new ProductStore()
+           product: new ProductStore()
          }}>
           <App />
       </Context.Provider>,
